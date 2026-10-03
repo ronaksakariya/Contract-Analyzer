@@ -1,0 +1,21 @@
+# secrets
+.env
+.env.*
+!.env.example
+
+# deps and builds
+node_modules/
+dist/
+.next/
+coverage/
+*.tsbuildinfo
+
+# local data
+uploads/
+*.log
+AGENTS.md
+
+# OS/editor
+.DS_Store
+.vscode/
+.idea/
